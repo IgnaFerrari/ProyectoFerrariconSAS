@@ -1,17 +1,25 @@
 .body-contacto {
     height: 100%;
-    background-color: #1d8ffa;
+    background-color: #96cbdb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    h2{
+        font-size: 5vh;
+        color: lightyellow;
+        text-align: center;
+    }
 }
-
+.formulario{
+    align-items: center;
+}
 .contact_form {
-    width: 480px;
+    width: 500px;
     height: auto;
     margin: 80px auto;
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #3f96e7;
-    padding-left: 30px;
+    background-color: #49c7b6bd;
+    padding-left: 40px;
 }
 
 input {
@@ -53,20 +61,22 @@ button {
     margin-bottom: 20px;
     margin-top: 10px;
     text-transform: uppercase;
-    background-color: #4497ab;
+    background-color: #ffffffb7;
     border-color: #246f8d;
     border-style: solid;
     border-radius: 10px;
     width: 420px;
     cursor: pointer;
 }
-
+button:hover{
+    background-color: lightseagreen;
+}
 button p {
-    color: rgb(63, 96, 146);
+    color: rgb(86, 206, 190);
 }
 
 span {
-    color: #5d71e2;
+    color: #69c9c185;
 }
 
 .aviso {
@@ -93,11 +103,11 @@ p {
 }
 
 ::-webkit-input-placeholder {
-    color: #20d4e0;
+    color: #44d6e0cc;
 }
 
 ::-webkit-textarea-placeholder {
-    color: #a8a8a8;
+    color: #0b0e0f;
 }
 
 .formulario input:focus {
