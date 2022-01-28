@@ -223,7 +223,7 @@ main {
   align-items: center; }
 
 .contact_form {
-  width: 500px;
+  width: 375px;
   height: auto;
   margin: 80px auto;
   border-radius: 10px;
@@ -234,7 +234,7 @@ main {
 
 input {
   background-color: #fbfbfb;
-  width: 408px;
+  width: 300px;
   height: 40px;
   border-radius: 5px;
   border-style: solid;
@@ -246,7 +246,7 @@ input {
 
 textarea {
   background-color: #fbfbfb;
-  width: 405px;
+  width: 300px;
   height: 150px;
   border-radius: 5px;
   border-style: solid;
@@ -272,7 +272,7 @@ button {
   border-color: #246f8d;
   border-style: solid;
   border-radius: 10px;
-  width: 420px;
+  width: 300px;
   cursor: pointer; }
 
 button:hover {
@@ -391,7 +391,10 @@ footer {
 @media screen and (max-width: 500px) {
   li {
     text-align: center;
-    padding: 30px 0 0 0; }
+    padding: 30px 0px 10px 0; }
+  nav {
+    column-count: 1;
+    padding-bottom: 30px; }
   li > a {
     margin-right: 5px; }
   .textos-header h1 {
