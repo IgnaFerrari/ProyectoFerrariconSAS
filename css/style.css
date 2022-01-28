@@ -145,7 +145,7 @@ main .sobre-nosotros {
   flex-direction: column; }
 
 .hover-galeria img {
-  width: 50px; }
+  width: 100px; }
 
 .hover-galeria p {
   color: #fff; }
