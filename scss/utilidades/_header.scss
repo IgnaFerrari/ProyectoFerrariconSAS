@@ -29,7 +29,7 @@ li>a {
 
 li>a:hover {
     text-decoration: underline;
-    color: rgba(56, 131, 93, 0.788);
+    color: #1A5276;
 }
 
 header .textos-header {
@@ -62,14 +62,16 @@ h1:hover {
     width: 100%;
     height: 150px;
     overflow: hidden;
-    stroke: none; 
-    fill: #08f
+    stroke: none;
+    fill: #1A5276
 }
-.svg{
-    height: 100%; 
+
+.svg {
+    height: 100%;
     width: 100%;
 }
-.path{
-    stroke: none; 
-    fill: #08f
+
+.path {
+    stroke: none;
+    fill: #1A5276
 }

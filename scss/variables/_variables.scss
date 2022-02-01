@@ -1,17 +1,19 @@
-$azul:#22b9b9;
+$azul:#7FB3D5;
 $sans-serif:'open sans';
-$sedwick-serif:'Sedgwick Ave', cursive;
+$sedwick-serif:'Sedgwick Ave',
+cursive;
+
 //Extend
 %estilos-h1 {
     font-size: 50px;
     color: #fff;
     font-family: $sedwick-serif;
 }
+
 //Mixin
 @mixin style-h1 {
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
 }
-    
 
 
